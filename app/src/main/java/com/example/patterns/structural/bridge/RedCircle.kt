@@ -1,7 +1,9 @@
 package com.example.patterns.structural.bridge
 
+import android.util.Log
+
 class RedCircle : DrawAPI {
     override fun drawCircle(radius: Int, x: Int, y: Int) {
-        println("Drawing Circle[ color: red, radius: $radius, x: $x, $y]")
+        Log.d("!!BridgePattern","Drawing Circle[ color: red, radius: $radius, x: $x, $y]")
     }
 }

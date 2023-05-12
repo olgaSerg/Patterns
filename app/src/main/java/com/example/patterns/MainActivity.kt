@@ -89,9 +89,11 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("!!Prototype", "square: ${square.hashCode()}")
         Log.d("!!Prototype", "squareClone: ${squareClone.hashCode()}")
+        Log.d("!!Prototype", (squareClone == square).toString())
 
         Log.d("!!Prototype", "rectangle: ${rectangle.hashCode()}")
         Log.d("!!Prototype", "rectangleClone: ${rectangleClone.hashCode()}")
+        Log.d("!!Prototype", (rectangleClone == rectangle).toString())
     }
 
     private fun createAdapterPattern() {
